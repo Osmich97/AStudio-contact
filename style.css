@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {
+    background-color: white;
+    font-family: 'Rajdhani';
+
+    
+}
+#wrapper {
+    max-width:100%;
+    margin: 0 auto 0 auto;
+    background-color:white;
+}
+nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index:9999;
+}
+a.menu{
+    
+    display: inline-block;
+    width: 7vw;
+    padding: 2vw 1vw 2vw 1vw;
+    text-decoration: none;
+    text-align: center;
+    color: white; 
+    font-size: 1vw;
+}
+#main{
+    color: #F4AB01;
+}
+a.menu:hover {
+    color: #F4AB01;
+}
+#logo{
+    padding-top: 1vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 0.7vw;
+}
+a.menu{
+    float: right;
+}
+h1{
+    text-align: center;
+    color: #F4AB01;
+    padding-top: 7vw;
+    font-size: 3vw;
+    padding-bottom: 1vw;
+}
+h2{
+    text-align: center;
+    font-size: 2vw;
+    padding-bottom: 1.5vw;
+    color: grey;
+}
+.opis{
+    text-align: justify;
+    font-size: 1.5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.article{
+    padding-left: 8vw;
+    padding-top: 3vw;
+    font-size: 2.5vw;
+    padding-right: 6vw;
+    text-align: center;
+
+}
+.maps{
+    float: right;
+    padding-right: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 0.5vw;
+    padding-top: 0.5vw;
+    background-color: #F4AB01;
+    position: relative;
+    overflow: hidden;
+    width: 35vw;
+    height: 25vw;
+}
+h3{
+    color: #F4AB01;
+    padding-bottom: 2vw;
+}
+a.more{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color:black;
+    font-size: 2vw;
+    padding-top: 1%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+a.more:hover{
+    color: #F4AB01;
+}
+footer{
+    text-align: center;
+    color: #0f3d33; 
+    font-size: 1vw;
+}
+#facebook{
+    width: 8%;
+    height: 8%;
+}
+.pierwsza{
+    background-color: gainsboro;
+}
